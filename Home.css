@@ -1,0 +1,34 @@
+.home-wrapper{
+    background-image: linear-gradient(rgba(105,171,215,0.8),rgba(227, 122, 244, 0.8)),url("https://cdn.pixabay.com/photo/2024/06/20/17/03/fishing-8842590_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-container{
+    border: 2px solid yellow;
+    text-align: center;
+    height: 300px;
+    max-width:500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.home-h2tag{
+    color: green;
+    font-size: 50px;
+    font-weight: 500;
+
+}
+.home-small-text{
+    padding: 20px;
+}
